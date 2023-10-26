@@ -2,7 +2,7 @@ import json
 from pdfreader import SimplePDFViewer
 import re
 
-non_alpha_regex = re.compile('[,\.!? /-\\'\\"]')
+non_alpha_regex = re.compile('[,\.!? /-\\\'\\\"]')
 exception_list = ['A. C.,', 'A/C']
 exception_index = 0
 
