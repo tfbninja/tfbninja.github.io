@@ -1,4 +1,10 @@
 import json
+from pdfreader import SimplePDFViewer
+
+b4_file = open("pdfs/BlackLaw4th.pdf", "rb")
+b4_viewer = SimplePDFViewer(b4_file)
+print(b4_viewer.metadata)
+
 
 
 # some JSON:
